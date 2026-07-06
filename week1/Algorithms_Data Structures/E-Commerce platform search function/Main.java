@@ -35,7 +35,7 @@ public class Main{
         else
             System.out.println("Product not found");
 
-        Product res2=linearSearch(products,targetId);
+        Product res2=binarySearch(products,targetId);
         if(res2!=null)
             System.out.println("Binary Search. Found: "+res2);
         else
